@@ -47,7 +47,7 @@ export const HomePage = () => {
                     notchedOutline: classes.searchBarOutline,
                   },
                 }}
-                placeholder="Search"
+                placeholder="Search55"
               />
             </Grid>
             <Grid container item xs={12}>

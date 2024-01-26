@@ -42,6 +42,7 @@ import { CssBaseline } from '@material-ui/core';
 import { HomepageCompositionRoot, VisitListener } from '@backstage/plugin-home';
 import { HomePage } from './components/home/HomePage';
 import { CustomizableHomePage } from './components/home/CustomizableHomePage';
+import { FepulginPage } from '@internal/plugin-fepulgin';
 
 const app = createApp({
   apis,
@@ -137,6 +138,7 @@ const routes = (
       element={<TechRadarPage width={1500} height={800} />}
     />
     <Route path="/catalog-graph" element={<CatalogGraphPage />} />
+    <Route path="/fepulgin" element={<FepulginPage />} />
   </FlatRoutes>
 );
 

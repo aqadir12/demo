@@ -11,7 +11,7 @@ backend.add(import('@backstage/plugin-auth-backend-module-github-provider'));
 backend.add(import('@backstage/plugin-badges-backend'));
 backend.add(import('@backstage/plugin-catalog-backend/alpha'));
 // TODO:(awanlin) replace when this is completed: https://github.com/backstage/backstage/pull/20551
-backend.add(legacyPlugin('explore', import('./plugins/explore')));
+// backend.add(legacyPlugin('explore', import('./plugins/explore')));
 // TODO:(awanlin) update with import when available
 backend.add(graphqlPlugin);
 backend.add(graphqlModuleCatalog());
